@@ -33,6 +33,6 @@ import os
 # Passing the current time as the seed value
 random.seed((time.time_ns() + os.getpid())%20)
 
-for i in range(30):
-    print(random.randint(0, 100), end="\t")
+for i in range(40):
+    print(random.randint(0, 200), end="\t")
      
